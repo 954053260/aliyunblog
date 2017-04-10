@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50717
 File Encoding         : 65001
 
-Date: 2017-04-10 15:36:09
+Date: 2017-04-10 16:00:01
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -71,33 +71,33 @@ CREATE TABLE `article_to_tag` (
 -- ----------------------------
 -- Records of article_to_tag
 -- ----------------------------
-INSERT INTO `article_to_tag` VALUES ('1', '14', '1');
-INSERT INTO `article_to_tag` VALUES ('2', '14', '2');
-INSERT INTO `article_to_tag` VALUES ('3', '14', '3');
-INSERT INTO `article_to_tag` VALUES ('5', '13', '0');
-INSERT INTO `article_to_tag` VALUES ('6', '2', '0');
-INSERT INTO `article_to_tag` VALUES ('7', '3', '0');
-INSERT INTO `article_to_tag` VALUES ('8', '4', '0');
-INSERT INTO `article_to_tag` VALUES ('9', '5', '0');
-INSERT INTO `article_to_tag` VALUES ('10', '6', '0');
-INSERT INTO `article_to_tag` VALUES ('11', '7', '0');
-INSERT INTO `article_to_tag` VALUES ('12', '8', '0');
-INSERT INTO `article_to_tag` VALUES ('13', '9', '0');
-INSERT INTO `article_to_tag` VALUES ('14', '10', '0');
-INSERT INTO `article_to_tag` VALUES ('15', '11', '0');
-INSERT INTO `article_to_tag` VALUES ('16', '12', '0');
-INSERT INTO `article_to_tag` VALUES ('18', '1', '0');
-INSERT INTO `article_to_tag` VALUES ('26', '16', '1');
-INSERT INTO `article_to_tag` VALUES ('27', '16', '3');
-INSERT INTO `article_to_tag` VALUES ('28', '16', '2');
-INSERT INTO `article_to_tag` VALUES ('29', '17', '0');
-INSERT INTO `article_to_tag` VALUES ('30', '18', '1');
-INSERT INTO `article_to_tag` VALUES ('31', '18', '2');
-INSERT INTO `article_to_tag` VALUES ('32', '18', '3');
-INSERT INTO `article_to_tag` VALUES ('33', '19', '0');
-INSERT INTO `article_to_tag` VALUES ('34', '20', '1');
-INSERT INTO `article_to_tag` VALUES ('35', '21', '2');
-INSERT INTO `article_to_tag` VALUES ('36', '22', '1');
+INSERT INTO `article_to_tag` VALUES ('1', '14', '2');
+INSERT INTO `article_to_tag` VALUES ('2', '14', '3');
+INSERT INTO `article_to_tag` VALUES ('3', '14', '4');
+INSERT INTO `article_to_tag` VALUES ('5', '13', '1');
+INSERT INTO `article_to_tag` VALUES ('6', '2', '1');
+INSERT INTO `article_to_tag` VALUES ('7', '3', '1');
+INSERT INTO `article_to_tag` VALUES ('8', '4', '1');
+INSERT INTO `article_to_tag` VALUES ('9', '5', '1');
+INSERT INTO `article_to_tag` VALUES ('10', '6', '1');
+INSERT INTO `article_to_tag` VALUES ('11', '7', '1');
+INSERT INTO `article_to_tag` VALUES ('12', '8', '1');
+INSERT INTO `article_to_tag` VALUES ('13', '9', '1');
+INSERT INTO `article_to_tag` VALUES ('14', '10', '1');
+INSERT INTO `article_to_tag` VALUES ('15', '11', '1');
+INSERT INTO `article_to_tag` VALUES ('16', '12', '1');
+INSERT INTO `article_to_tag` VALUES ('18', '1', '1');
+INSERT INTO `article_to_tag` VALUES ('26', '16', '2');
+INSERT INTO `article_to_tag` VALUES ('27', '16', '4');
+INSERT INTO `article_to_tag` VALUES ('28', '16', '3');
+INSERT INTO `article_to_tag` VALUES ('29', '17', '1');
+INSERT INTO `article_to_tag` VALUES ('30', '18', '2');
+INSERT INTO `article_to_tag` VALUES ('31', '18', '3');
+INSERT INTO `article_to_tag` VALUES ('32', '18', '4');
+INSERT INTO `article_to_tag` VALUES ('33', '19', '1');
+INSERT INTO `article_to_tag` VALUES ('34', '20', '2');
+INSERT INTO `article_to_tag` VALUES ('35', '21', '3');
+INSERT INTO `article_to_tag` VALUES ('36', '22', '2');
 
 -- ----------------------------
 -- Table structure for `comment`
@@ -159,7 +159,7 @@ CREATE TABLE `tag` (
 -- ----------------------------
 -- Records of tag
 -- ----------------------------
-INSERT INTO `tag` VALUES ('0', '未分类', '15');
-INSERT INTO `tag` VALUES ('1', 'HTML', '5');
-INSERT INTO `tag` VALUES ('2', 'CSS', '4');
-INSERT INTO `tag` VALUES ('3', 'JavaScript', '3');
+INSERT INTO `tag` VALUES ('1', '未分类', '15');
+INSERT INTO `tag` VALUES ('2', 'HTML', '5');
+INSERT INTO `tag` VALUES ('3', 'CSS', '4');
+INSERT INTO `tag` VALUES ('4', 'JavaScript', '3');
